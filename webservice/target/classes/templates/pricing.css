@@ -1,0 +1,47 @@
+.container {
+    max-width: 960px;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+:root {
+    --primary-color: #3498db; /* Обновите цвет основного элемента */
+    --text-color: #333; /* Обновите цвет текста */
+    --background-color: #ecf0f1; /* Обновите цвет фона */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+footer {
+    background-color: #f8f9fa; /* Цвет фона футера */
+    color: #495057; /* Цвет текста футера */
+}
